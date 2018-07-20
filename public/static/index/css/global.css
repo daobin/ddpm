@@ -1,0 +1,35 @@
+html, body{width:100%; min-width:1200px; margin:0; padding:0; background:#ffffff; color:#000; border:none;
+	font-size:14px; font-weight:normal; font-family:"Microsoft YaHei", "Arial", "宋体";}
+
+a{text-decoration: none;}
+a:hover{text-decoration: underline; cursor: pointer;}
+a:focus{text-decoration: none;}
+a, img{border: none;}
+p, ul{margin: 0; padding: 0;}
+
+.position-relative{position: relative !important;}
+.position-absolute{position: absolute !important;}
+.padding-left-50{padding-left: 50px !important;}
+.padding-left-150{padding-left: 150px !important;}
+.ul-list-style-none{list-style: none !important;}
+.ul-list-style-none li{display: inline-block;}
+.display-none{display: none !important;}
+
+#web-logo img{width: 120px; height: 60px; position: absolute; left: 20px; top: 20px;
+    background: #ffffff; border-radius: 10px;}
+
+#header{height: 100px; overflow: hidden; background: #0099cc; border-bottom: 1px solid #e1e1e1;}
+#header .navbar-container{margin: 0 30px;}
+#header .navbar-menu{height: 60px; line-height: 60px; background: #0066aa;}
+#header .navbar-menu ul li{padding: 0 25px; color: #ffffff; font-size: 20px;}
+#header .navbar-menu ul li.menus{cursor: pointer;}
+#header .navbar-menu ul li.active{cursor: default; background: #0099cc;}
+#header .navbar-menu-sub{height: 40px; line-height: 40px;}
+#header .navbar-menu-sub ul{display: none;}
+#header .navbar-menu-sub ul.active{display: block;}
+#header .navbar-menu-sub ul li{padding: 0 35px 0 15px;}
+#header .navbar-menu-sub ul li a{color: #ffffff; font-size: 16px;}
+
+#main{margin-top: 120px; margin-bottom: 60px;}
+
+#footer{}
